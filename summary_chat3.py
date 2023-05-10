@@ -20,7 +20,7 @@ output = 'Can you make a summary of the following article: "{}"'.format(main_tex
 print(output)
 pyperclip.copy(output)
 
-# Open ChatGPT.
+# Opening ChatGPT.
 url = "https://chat.openai.com/"
 webbrowser.open_new(url)
 print("\nOpening ChatGPT site...")
